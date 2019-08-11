@@ -3238,7 +3238,7 @@ input, select, textarea {
 			background-size: cover,								cover,														cover;
 			background-position: center,								center,														center;
 			background-repeat: repeat,								repeat,													repeat;
-			background-attachment: fixed,								fixed,														fixed;
+			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
 		}
 
