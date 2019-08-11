@@ -3228,11 +3228,15 @@ input, select, textarea {
 	}
 
 		#wrapper > .bg {
-			background: url("../../images/creative_bg.jpg") no-repeat center center fixed;
-			-webkit-background-size: cover;							
-			-moz-background-size: center;								
-			-o-background-size: no-repeat;								
-			background-size: cover;							
+			position: fixed;
+			top: 0;
+			left: 0;
+			background-image: url("../../images/creative_bg.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			min-width:100%;
+			min-height:100%;							
 			
 		}
 
