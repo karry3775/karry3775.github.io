@@ -3235,10 +3235,10 @@ input, select, textarea {
 			height: 100%;
 			background-color: #212931;
 			background-image: url("../../images/creative_bg.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/creative_bg.jpg");
-			background-size: cover,								cover,														100% auto;
-			background-position: center,								center,														top center;
+			background-size: cover,								cover,														cover;
+			background-position: center,								center,														center;
 			background-repeat: no-repeat,								no-repeat,													no-repeat;
-			background-attachment: fixed,								fixed,														scroll;
+			background-attachment: fixed,								fixed,														fixed;
 			z-index: -1;
 		}
 
