@@ -50,15 +50,15 @@
 							<!-- Projects -->
 
 							<article class="post featured">
-								<h2>Pure pursuit based Docking simulation for a pallet Jack</h2>
+								<h2>Pure pursuit based simulation for a pallet Jack</h2>
 						<p>
 
 								<iframe class="image fit" src="https://www.youtube.com/embed/eA6Uonop0Zk?vq=hd1080&showinfo=0&rel=0&fs=0&controls=0" width="854" height="480" frameborder="0"></iframe> <!-- width="854" height="480" -->
-								<span>
+								<div style='text-align:left;'>
 								Created a simulator based on python's matplotlib library.
 								Used Pure pursuit technique to make a non-holonomic system achieve desired docking performance
 
-								</span>
+								</div>
 								<br/>
 								<div class="col-6 col-12-small">
 								<ul class="actions stacked">
@@ -67,10 +67,13 @@
 								</div>
 
 								<h2>PID based move to pose of a differential drive robot</h2>
-								<span class="image fit">
+
 									<iframe class="image fit" src="https://www.youtube.com/embed/CWSS1CwzKQc?vq=hd1080&showinfo=0&rel=0&fs=0&controls=0" width="854" height="480" frameborder="0"></iframe>
-									Random text.
-								</span>
+								<div style='text-align:left;'>
+									Created a simulation considering the kinematics of a differential drive robot in python.
+									Implemented a PID based move to pose behaviour.
+									The video above demonstrates how the robot is effectively able to move between random start and goal locations.
+								</div>
 								<div class="col-6 col-12-small">
 								<ul class="actions stacked">
 								<li><a href="https://github.com/karry3775/Motion-Planning/blob/master/PID_differential_drive.py" class="button primary fit">Check out the code at Github!</a></li>
@@ -78,10 +81,12 @@
 								</div>
 
 								<h2>Optimal Trajectory Generation and Tracking</h2>
-								<span class="image fit">
+
 									<iframe  class="image fit" src="https://www.youtube.com/embed/qIC5ih692EE?vq=hd1080&showinfo=0&rel=0&controls=0" width="854" height="480" frameborder="0"></iframe>
-									Random text.
-								</span>
+								<div style='text-align:left;'>
+									For this simulation a optimal control problem was solved for a quadratic cost keeping in mind the velocity and acceleration limits of a car like robot. The obtained Trajectory
+									was then tracked using Trajectory Optimized Linear Quadratic regulator under user induced noise of &#177; 10%.
+								</div>
 								<div class="col-6 col-12-small">
 								<ul class="actions stacked">
 								<li><a href="https://github.com/karry3775/Motion-Planning/blob/master/pallet_jack_TLQR2_w_animation.py" class="button primary fit">Check out the code at Github!</a></li>
@@ -89,10 +94,11 @@
 								</div>
 
 								<h2>RRT exploration for holonomic systems</h2>
-								<span class="image fit">
+
 									<iframe class="image fit" src="https://www.youtube.com/embed/Wjftlh6am_o?vq=hd1080&showinfo=0&rel=0&controls=0" width="854" height="480" frameborder="0"></iframe>
-									Random text.
-								</span>
+								<div style='text-align:left;'>
+									This simple python based simulation shows how a RRT technique can be used to do exploration for a holonomic system.
+								</div>
 								<div class="col-6 col-12-small">
 								<ul class="actions stacked">
 								<li><a href="https://github.com/karry3775/Motion-Planning/blob/master/rrt_demo_exploration.py" class="button primary fit">Check out the code at Github!</a></li>
@@ -100,10 +106,11 @@
 								</div>
 
 								<h2>RRT exploration for non-holonomic systems</h2>
-								<span class="image fit">
+
 									<iframe class="image fit" src="https://www.youtube.com/embed/GZ1AaDL9nTk?vq=hd1080&showinfo=0&rel=0&controls=0" width="854" height="480" frameborder="0"></iframe>
-									Random text.
-								</span>
+								<div style='text-align:left;'>
+									RRT can also be used to find paths for a non-holonomic system. The simulation makes use of random sampling of control commands as opposed to cordinates for holonomic systems.
+								</div>
 								<div class="col-6 col-12-small">
 								<ul class="actions stacked">
 								<li><a href="https://github.com/karry3775/Motion-Planning/blob/master/rrt_with_obstacles.py" class="button primary fit">Check out the code at Github!</a></li>
@@ -111,10 +118,11 @@
 								</div>
 
 								<h2>RRT based go to goal non-holonomic</h2>
-								<span class="image fit">
+
 									<iframe  class="image fit" src="https://www.youtube.com/embed/uAYZt799_Rw?vq=hd1080&showinfo=0&rel=0&controls=0" width="854" height="480" frameborder="0"></iframe>
-									Random text.
-								</span>
+								<div style='text-align:left;'>
+									This simulation shows how adjusting the spread of controls can lead to elegant looking path. Although this path is suboptimal, it can succesfully obtain a feasible path to the goal if one exists.
+								</div>
 								<div class="col-6 col-12-small">
 								<ul class="actions stacked">
 								<li><a href="https://github.com/karry3775/Motion-Planning/blob/master/rrt_go_to_goal.py" class="button primary fit">Check out the code at Github!</a></li>
@@ -122,10 +130,11 @@
 								</div>
 
 								<h2>Breadth First Search based path-finding</h2>
-								<span class="image fit">
+
 									<iframe class="image fit" src="https://www.youtube.com/embed/h3VlAoNS_PA?vq=hd1080&showinfo=0&rel=0&controls=0" width="854" height="480" frameborder="0"></iframe>
-									Random text.
-								</span>
+								<div style='text-align:left;'>
+									The above video demonstrates the use of breadth first search to obtain a obstacle free path.
+								</div>
 								<div class="col-6 col-12-small">
 								<ul class="actions stacked">
 								<li><a href="https://github.com/karry3775/Motion-Planning/blob/master/breadth_first_search_perfect.py" class="button primary fit">Check out the code at Github!</a></li>
@@ -133,10 +142,11 @@
 								</div>
 
 								<h2>Control of Cart-Pole</h2>
-								<span class="image fit">
+
 									<iframe class="image fit" src="https://www.youtube.com/embed/a1Fx9qfChzM?vq=hd1080&showinfo=0&rel=0&controls=0" width="854" height="480" frameborder="0"></iframe>
-									Random text.
-								</span>
+								<div style='text-align:left;'>
+									The above video demonstrates the use of LQR feedback gain to stabilize the upright postion of pendulum on a cart.
+								</div>
 								<div class="col-6 col-12-small">
 								<ul class="actions stacked">
 								<li><a href="https://github.com/karry3775/Control/blob/master/pole_placement_demo.py" class="button primary fit">Check out the code at Github!</a></li>
