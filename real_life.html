@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a class="logo">Real life Implementations</a>
+						<a class="logo">REAL LIFE IMPLEMENTATIONS</a>
 					</header>
 
 				<!-- Nav -->
@@ -48,50 +48,68 @@
 							</section>
 
 							<!-- Projects -->
-							<h2>Proj 1</h2>
+
+							<article class="post featured">
+								<h2 id="pure-pursuit-vicon">DPD Maneuver for a PALLET JACK</h2>
+						<p>
+
+								<iframe class="image fit" src="https://www.youtube.com/embed/sufRwc18g90?vq=hd1080&showinfo=0&rel=0&fs=0&controls=0" width="854" height="480" frameborder="0"></iframe>
+								<div style='text-align:left;'>
+									The project is aimed towards
+									facilitating autonomy to an
+									existing warehouse electric
+									Pallet Jack. The vehicle used is
+									meant to be manually operated.
+									Thus, as a first step the
+									necessary hardware and
+									software changes for the
+									drive-by-wire system were
+									incorporated. To control the pallet jack a kinematic model
+									was used which was also validated using a motion capture system (VICON). Three
+									trajectory controllers namely Model Predictive Controller (MPC), Trajectory
+									Optimised Linear Quadratic Regulator (T-LQR) and PID were implemented and
+									compared under full state feedback from VICON. Finally a complete pallet <b>DOCKING-PICKUP-DROPOFF (DPD) </b>
+									was demonstrated using a pure pursuit based docking behaviour. The
+									future works include achieving the same functionality using just the onboard
+									sensors like LIDAR, stereo camera and upright camera, for robust low cost indoor
+									autonomy. Details of the implementation are of proprietary nature and hence the code can't be shared.
+
+								</div>
+						</p>
+
+								<h2 id="pure-pursuit-vio">DOCKING USING TRACKING CAMERA</h2>
+
+						<p>
+								<iframe class="image fit" src="https://www.youtube.com/embed/b-rj2wP1cG0?vq=hd1080&showinfo=0&rel=0&fs=0&controls=0&mute=1" width="854" height="480" frameborder="0"></iframe>
+								<div style='text-align:left;'>
+									As a next step towards platform independent indoor autonomy , we demonstrate Docking with
+									a pallet using just the state data acquired from Intel RealSense Tracking Camera. The camera
+									tracks features in the environment and use that to ascertain its pose information. Its prone to
+									fast motions and provides quite robust state estimation. The video shows successfull docking with the pallet with a fair degree of
+									accuracy.
+
+								</div>
+
+
+
+							</p>
+
+								<h2 id="pure-pursuit-vio">WAY POINT FOLLOWING</h2>
+
 							<p>
-							<span class="image left">
-								<iframe class="image fit" src="https://www.youtube-nocookie.com/embed/ny15hMdtyXY?vq=hd1080&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&controls=0" width="640" height="360" frameborder="0"></iframe> <!-- width="854" height="480" -->
-							</span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.
-						  </p>
-							<div class="col-6 col-12-small">
-								<ul class="actions stacked">
-									<li><a href="#" class="button primary fit">Check out the code at Github!</a></li>
-								</ul>
-							</div>
-							<h2>Proj 2</h2>
-							<p>
-							<span class="image right">
-								<iframe class="image fit" src="https://www.youtube-nocookie.com/embed/ny15hMdtyXY?vq=hd1080&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&controls=0" width="640" height="360" frameborder="0"></iframe> <!-- width="854" height="480" -->
-							</span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.
-						  </p>
-							<div class="col-6 col-12-small">
-								<ul class="actions stacked">
-									<li><a href="#" class="button primary fit">Check out the code at Github!</a></li>
-								</ul>
-							</div>
-							<h2>Proj 3</h2>
-							<p>
-							<span class="image left">
-								<iframe class="image fit" src="https://www.youtube-nocookie.com/embed/ny15hMdtyXY?vq=hd1080&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&controls=0" width="640" height="360" frameborder="0"></iframe> <!-- width="854" height="480" -->
-							</span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.
-						  </p>
-							<div class="col-6 col-12-small">
-								<ul class="actions stacked">
-									<li><a href="#" class="button primary fit">Check out the code at Github!</a></li>
-								</ul>
-							</div>
-							<h2>Proj 4</h2>
-							<p>
-							<span class="image right">
-								<iframe class="image fit" src="https://www.youtube-nocookie.com/embed/ny15hMdtyXY?vq=hd1080&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&controls=0" width="640" height="360" frameborder="0"></iframe> <!-- width="854" height="480" -->
-							</span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.
-						  </p>
-							<div class="col-6 col-12-small">
-								<ul class="actions stacked">
-									<li><a href="#" class="button primary fit">Check out the code at Github!</a></li>
-								</ul>
-							</div>
+								<iframe class="image fit" src="https://www.youtube.com/embed/Y8fiI24-2lE?vq=hd1080&showinfo=0&rel=0&fs=0&controls=0&mute=1" width="854" height="480" frameborder="0"></iframe>
+								<div style='text-align:left;'>
+									The above demonstration showcases the ability of our pallet jack to effectively navigate between waypoints. In this case there is sufficient buffer
+									given to the system to determine the position of the marker which decides the next waypoint. The Pallet Jack uses MPC to effectively plan a trajectory
+									between waypoints. Only when the previous waypoint is reached , the next waypoint is followed. The state feedback here is obtained using a Motion Capture
+									System. 
+
+								</div>
+
+
+
+						</p>
+						</article>
 
 							<!-- style="width:500px;height:350px;" -->
 
@@ -99,7 +117,7 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<section class="split contact">							
+						<section class="split contact">
 							<section>
 								<h3>Email</h3>
 								<p>kartikprakash3775@gmail.com <br />
